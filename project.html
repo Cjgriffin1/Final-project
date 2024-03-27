@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration System</title>
+    <link rel="stylesheet" href="styles.css">
+	<script src="project.js" defer></script>
+</head>
+<body>
+    <h1>Employee Registration System</h1>
+    <form id="employeeForm">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" required><br>
+        
+        <label for="middleName">Middle Name:</label>
+        <input type="text" id="middleName"><br>
+        
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" required><br>
+        
+        <label for="ssn">Social Security Number:</label>
+        <input type="text" id="ssn" required><br>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" required><br>
+        
+        <label for="hireDate">Hire Date:</label>
+        <input type="date" id="hireDate" required><br>
+        
+        <label for="position">Current Position:</label>
+        <input type="text" id="position" required><br>
+        
+        <label for="department">Department:</label>
+        <input type="text" id="department" required><br>
+        
+        <label for="homePhone">Home Phone Number:</label>
+        <input type="tel" id="homePhone" required><br>
+        
+        <label for="workPhone">Work Phone Number:</label>
+        <input type="tel" id="workPhone" required><br>
+        
+        <label for="mobilePhone">Mobile Phone Number:</label>
+        <input type="tel" id="mobilePhone" required><br>
+        
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" required><br>
+
+        <button type="submit">Add Employee</button>
+    </form>
+    <div id="employeeListing"></div>
+    <div id="employeeDetails"></div>
+ 
+</body>
+</html>
